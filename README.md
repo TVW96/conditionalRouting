@@ -1,1 +1,3 @@
-# conditionalRouting
+Add the following to this `README.md` file:  
+  * The two files app.js and server.js are used to hold the layout of my web application and run the server. app i sused for designing the layout and handling server request and server.js is used to start up the application. 
+  * In order to handle the conditional routing needed for the foo page I created a variable labeled randomChoice which will give a boolean of true 50% of the time. If randomChoice is true, 'sometimes this'. If randomChoice is false, it calls next().
